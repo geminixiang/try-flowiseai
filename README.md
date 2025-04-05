@@ -1,5 +1,14 @@
 ![Image](https://github.com/user-attachments/assets/c7776a56-7ff7-4408-a817-a4e52d50a3fa)
 
+### 前言
+
+這類型的競品有
+
+- https://github.com/FlowiseAI/Flowise
+- https://github.com/langflow-ai/langflow
+
+感覺 Flowise 比較多 template，就先用了，上手蠻快的
+
 ### 啟動
 ```shell
 docker compose up -d
