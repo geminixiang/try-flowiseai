@@ -1,0 +1,12 @@
+services:
+  flowise:
+    image: elestio/flowiseai:latest
+    restart: always
+    environment:
+    - PORT=3000
+    - FLOWISE_USERNAME=your-username
+    - FLOWISE_PASSWORD=your-username
+    ports:
+    - "3965:3000"
+    volumes:
+    - ./.flowise:/root/.flowise
